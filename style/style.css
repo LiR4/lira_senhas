@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.FirstBox {
+    background-color: black;
+    padding: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    flex-direction: column;
+}
+
+h1 {
+    color: #008000;
+}
+
+.senha {
+    color: #008000;
+    padding: 20px;
+}
+
+.senha span {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+
+#butao {
+    background-color: #008000;
+    border: #008000;
+}
+
+#quan {
+    width: 50px;
+    height: 20px;
+}
+
+.Checks {
+    color: #008000;
+    display: flex;
+    flex-direction: column; 
+}
+
+#che {
+    padding: 5px;
+}
