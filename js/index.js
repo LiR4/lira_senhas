@@ -97,3 +97,7 @@ copia.addEventListener("click", () => {
     textarea.remove();
     alert("Senha copiada");
 });
+
+function Codigo() {
+    window.location.href = "https://youtu.be/ReeXikbxc3I?t=25";
+}
