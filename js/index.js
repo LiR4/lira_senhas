@@ -1,3 +1,4 @@
+//Declaração de variaveis
 const senha = document.getElementById("pass");
 const copia = document.getElementById("butao");
 const tamanho = document.getElementById("tam");
@@ -7,11 +8,14 @@ const number = document.getElementById("number");
 const caractere = document.getElementById("especial");
 const gene = document.getElementById("gerar");
 
+
 const listaMaiusc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const listaMinusc = "abcdefghijklmnopqrstuvwxyz";
 const numeros = "0123456789";
 const caracteres = "!@#$%^&*()_+=";
 
+
+//=================== Funções para cada checkbox ====================
 function InserirMinusc() {
     return listaMinusc[Math.floor(Math.random() * listaMinusc.length)];
 }
@@ -27,7 +31,9 @@ function inserirNum() {
 function INserirCaracteres() {
     return caracteres[Math.floor(Math.random() * caracteres.length)];
 }
+//==================================================================
 
+//Função para acrescentar o que o está marcado
 function generatePassword() {
     const len = tamanho.value;
 
@@ -80,8 +86,10 @@ function generateX() {
     return xs[Math.floor(Math.random() * xs.length)];
 }
 
+//Quando clicar no bota com ID gene cria a password
 gene.addEventListener("click", generatePassword);
 
+//Função do botão de copia
 copia.addEventListener("click", () => {
     const textarea = document.createElement("textarea");
     const password = senha.innerText;
@@ -98,6 +106,7 @@ copia.addEventListener("click", () => {
     alert("Senha copiada");
 });
 
+//redirecionar para o video
 function Codigo() {
     window.location.href = "https://youtu.be/ReeXikbxc3I?t=25";
 }

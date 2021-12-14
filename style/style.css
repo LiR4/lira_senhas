@@ -1,3 +1,4 @@
+/*====== fonts ========*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Ubuntu+Mono:wght@400;700&display=swap');
 
 * {
@@ -10,8 +11,10 @@
 
 body {
     background: url(../images/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+    /*gif de fundo*/
 }
 
+/*====== centralizando o bloco =====*/
 main {
     display: flex;
     justify-content: center;
@@ -19,6 +22,7 @@ main {
     padding: 50px;
 }
 
+/*===== bloco ======*/
 .FirstBox {
     background-color: rgba(0, 0, 0, 0);
     padding: 0;
@@ -79,4 +83,4 @@ h1 {
     justify-content: center;
     padding-top: 30px;
 }
-
+/*==================================*/
