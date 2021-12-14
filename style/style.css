@@ -8,6 +8,10 @@
     font-family: 'Ubuntu Mono', monospace;
 }
 
+body {
+    background: url(../images/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -16,8 +20,8 @@ main {
 }
 
 .FirstBox {
-    background-color: black;
-    padding: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
     display: flex;
     align-items: center;
     border-radius: 5%;
@@ -57,4 +61,14 @@ h1 {
 
 #che {
     padding: 5px;
+}
+
+#gerar {
+    background-color: #008000;
+    border: #008000;
+}
+
+.Gerar {
+    display: flex;
+    justify-content: center;
 }
